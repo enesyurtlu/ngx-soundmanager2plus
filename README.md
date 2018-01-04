@@ -27,7 +27,7 @@ $ npm i ngx-soundmanager2plus --save
 
 # Integration
 
-Should work out of the box with webpack, respectively angular-cli. All you need to do is to include `NgxSoundmanager2Module`:
+Should work out of the box with webpack, respectively angular-cli. All you need to do is to include `NgxSoundmanager2PlusModule`:
 
 Add soundmanager2 to the .angular-cli.json scripts array:
 ```
@@ -37,10 +37,10 @@ Add soundmanager2 to the .angular-cli.json scripts array:
 ```
 
 ```ts
-import { NgxSoundmanager2Module } from 'ngx-soundmanager2';
+import { NgxSoundmanager2PlusModule } from 'ngx-soundmanager2plus';
 
 @NgModule({
-  imports: [NgxSoundmanager2Module.forRoot()],
+  imports: [NgxSoundmanager2PlusModule.forRoot()],
   ...
 })
 class AppModule {}
@@ -52,10 +52,10 @@ class AppModule {}
 // tools/config/project.ts
 
 ...
-// Add packages (e.g. ngx-soundmanager2)
+// Add packages (e.g. ngx-soundmanager2plus)
 let additionalPackages: ExtendPackages[] = [{
-  name: 'ngx-soundmanager2',
-  path: 'node_modules/ngx-soundmanager2/ngx-soundmanager2.ts'
+  name: 'ngx-soundmanager2plus',
+  path: 'node_modules/ngx-soundmanager2plus/ngx-soundmanager2plus.ts'
 }];
 
 this.addPackagesBundles(additionalPackages);
@@ -73,7 +73,7 @@ this.NPM_DEPENDENCIES = [
 Clone the ngx-soundmanager2plus repository.
 
 ```
-$ cd ngx-soundmanager2
+$ cd ngx-soundmanager2plus
 $ cd demo
 $ npm install
 $ ng serve
