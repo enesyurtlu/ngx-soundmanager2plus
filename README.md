@@ -3,7 +3,7 @@
 An audio player made with the SoundManager2 API for Angular (ngx Angular v4+) to play sound files.
 
 SoundManager 2 brings reliable cross-platform audio to JavaScript.
-This reposity forked from ngx-soundmanager2plus and added some directives like Shuffle, ProgressBar, VolumeBar.
+This reposity forked from ngx-soundmanager2 and added some directives like Shuffle, ProgressBar, VolumeBar.
 For example if you want to change current progress you can click on progress bar and it will change current progress with selected progress.
 
 **Requirements:** Angular 4.3+
@@ -21,8 +21,8 @@ For example if you want to change current progress you can click on progress bar
 # How to use?
 
 ```
-$ npm i ngx-soundmanager2 --save
-$ npm i soundmanager2 --save
+$ npm i ngx-soundmanager2plus --save
+
 ```
 
 # Integration
