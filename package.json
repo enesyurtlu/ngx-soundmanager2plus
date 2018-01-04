@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lfarran/ngx-soundmanager2plus.git"
+    "url": "git+https://github.com/enesyurtlu/ngx-soundmanager2plus.git"
   },
   "keywords": [
     "angular",
@@ -29,9 +29,9 @@
   "author": "Luke Farran <lfarran> Enes Yurtlu <enesyurtlu>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lfarran/ngx-soundmanager2plus/issues"
+    "url": "https://github.com/enesyurtlu/ngx-soundmanager2plus/issues"
   },
-  "homepage": "https://github.com/lfarran/ngx-soundmanager2plus#readme",
+  "homepage": "https://github.com/enesyurtlu/ngx-soundmanager2plus#readme",
   "dependencies": {
     "@angular/common": "^5.1.0",
     "@angular/compiler": "^5.1.0",
