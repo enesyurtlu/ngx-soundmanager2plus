@@ -3,6 +3,7 @@ import {nameLibrary,PATH_DIST} from './config-library.js'
 
 config.output = {
     format: "es",
-    file: PATH_DIST+nameLibrary+".esm.js"
+    file: PATH_DIST+nameLibrary+".esm.js",
+    name: nameLibrary
 }
 export default config;

@@ -21,7 +21,8 @@ export default {
     sourcemap:true,
     output: {
         file: PATH_DIST + nameLibrary + ".umd.js",
-        format: 'umd'
+        format: 'umd',
+        name: nameLibrary
     },
     plugins: [
         angular(

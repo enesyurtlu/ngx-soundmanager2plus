@@ -1,7 +1,7 @@
 {
   "name": "ngx-soundmanager2plus",
   "description": "SoundManager2plus Music Player for Angular4+",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "main": "ngx-soundmanager2plus.umd.js",
   "jsnext:main": "ngx-soundmanager2plus.esm.js",
   "module": "ngx-soundmanager2plus.esm.js",
